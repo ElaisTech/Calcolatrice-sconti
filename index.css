@@ -1,0 +1,137 @@
+.testata {
+    position: absolute;
+    width: 375px;
+    height: 86px;
+    background: #e6d2a8;
+    margin-top: -15px;
+    max-width: auto;
+    border-radius: 0px 0px 20px 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+
+
+}
+.logowrapper {
+    position: absolute;
+    width: 82px;
+    height: 72px;
+    left: 147px;
+    top: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    background: #ebd2a4;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.section1 {
+    position: absolute;
+width: 202px;
+height: 38px;
+left: calc(50% - 202px/2 - 0.5px);
+top: 169px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #000000;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    
+}
+.testo {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.inputcampo {
+    width: 340px;
+}
+
+.section2 {
+    position: absolute;
+width: 207px;
+height: 44px;
+left: 80px;
+top: 299px;
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #000000;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.section3 {
+    position: absolute;
+width: 207px;
+height: 51px;
+left: 80px;
+top: 417px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #000000;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.check {
+    display: flex;
+}
+
+.risultatowrapper {
+    position: absolute;
+width: 210px;
+height: 45px;
+left: 79px;
+top: 575px;
+
+
+align-items: center;
+justify-content: center;
+align-content: center;
+}
+
+.risultato {
+    
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 250px;
+    height: 50px;
+}
+.wrapit {
+    display: flex;
+    align-items: center;
+}
+
+.buttonwrapper {
+    position: absolute;
+width: 81px;
+height: 16px;
+left: 148px;
+top: 525px;
+}

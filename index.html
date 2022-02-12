@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <title>Calcolatrice sconti</title>
+</head>
+<header>
+    <div class="testata">
+        
+
+    </div>
+    <div class="logowrapper">
+        <h1>%</h1>
+    </div>
+</header>
+<body>
+    <div class="section1">
+        <h1 class="testo">Qual'è il prezzo iniziale?</h1>
+        <input type="text" placeholder="Inserisci qui il prezzo iniziale" class="inputcampo" id="initialprice">
+    </div>
+    <div class="section2">
+        <h1 class="testo">Utilizzi la legge 104?</h1>
+       <div class="check">
+        <input type="checkbox" value="1" id="agevolato"> si
+       <input type="checkbox" value="2"> no
+    </div>
+    </div>
+    <div class="section3">
+        <h1 class="testo">Qual'è la % di sconto?</h1>
+        <input type="text" placeholder="Inserisci qui la % (solo numero)" class="inputcampo" id="discount">
+    </div>
+
+    <div class="buttonwrapper">
+        <button class="btn" id="btnclc">Calcola!</button>
+    </div>
+
+    <div class="risultatowrapper">
+        
+        <h1 class="testo">Questo è il prezzo scontato!</h1>
+        <div class="wrapit">
+            <div class="risultato"></div>
+        </div>
+
+    </div>
+</body>
+
+<script src="index.js"></script>
+</html>
